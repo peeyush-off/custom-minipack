@@ -90,6 +90,7 @@ function buildFinal(entry, dest) {
     const result = bundle(graph);
     ensureDirectoryExistence(dest);
     fs.writeFileSync(dest, result);
+    console.log(`${dest} file created successfully.`);
 }
 
 function ensureDirectoryExistence(filePath) {
