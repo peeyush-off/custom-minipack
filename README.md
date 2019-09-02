@@ -60,6 +60,20 @@ They generate a more abstract model called an AST (abstract syntax tree).
 2. Babel-traverse: The Babel Traverse module maintains the overall tree state, and is responsible for replacing, removing, and adding nodes. We use it to get the dependency node from the AST.
 3. Babel-core: Babel used to convert ECMAScript 2015+ code into a backwards compatible version of JavaScript that can be used in current and older browsers or environments.
 
+#### Run bundler
+
+1. Install dependies
+    ```
+    npm install
+    ```
+
+2. Edit 'config.json'
+
+
+3. Run the bundler
+    ```
+    npm run build
+    ```
 ---
 
  *Inspired by Ronen Amiel's fantanstic talk on 'Build your own Webpack'.*
