@@ -3,13 +3,19 @@
     "version": "0.1.0",
     "description": "A small implementation for module bundler.",
     "main": "bundle.js",
-    "directories": {
-        "example": "example"
-    },
     "scripts": {
         "build": "node src/index.js"
     },
-    "keywords": ["minipack", "custom-bundler"],
+    "keywords": [
+        "minipack",
+        "custom-bundler"
+    ],
     "author": "Peeyush Pant",
-    "license": "ISC"
+    "license": "ISC",
+    "dependencies": {
+        "babel-core": "^6.26.3",
+        "babel-preset-env": "^1.7.0",
+        "babel-traverse": "^6.26.0",
+        "babylon": "^6.18.0"
+    }
 }
